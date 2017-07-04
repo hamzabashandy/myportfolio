@@ -1,0 +1,156 @@
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1px;
+  grid-auto-rows: repeat (15, 500px);
+  grid-gap: .5vw .5vw;
+}
+
+.header{
+	width: 90%;
+	margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1px;
+    grid-auto-rows: repeat (15, 500px);
+	background: #fff;
+	position: fixed;
+	top:0px;	
+}
+
+img {
+	width: 100%;
+}
+
+h1 {
+	font-size: 3vh;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+	align-self: center;
+    font-weight: 400;
+}
+
+h2 {
+	font-size: 2vh;
+	font-weight: 200;
+	font-family: 'Raleway', sans-serif;
+}
+
+.active {
+	font-size: 2vh;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+}
+
+.title{
+	grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.subtitle-work{
+	grid-column: 3 / span 1;
+    grid-row: 1 / span 2;
+	align-self: center;
+	text-align: right;
+	padding-right: .3em;
+	font-weight: 400;
+}
+
+.subtitle-cv{
+	grid-column: 4 / span 1;
+    grid-row: 1 / span 2;
+	align-self: center;
+	text-align: left;
+	font-size: 2vh;
+	font-weight: 200;
+	font-family: 'Raleway', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.subtitle-cv a:hover {
+    font-weight: 600;
+    color: darkred;
+    
+}
+
+.eurythmie{
+	grid-column: 1 / span 6;
+    grid-row: 1 / span 2 ;
+}
+
+.eurythmie-text{
+	grid-column: 1 / span 6;
+    grid-row: 1 / span 2 ;
+	display: none;
+}
+
+.thetower{
+	grid-column: 1 / span 2;
+    grid-row:  3 / span 2 ;
+	
+}
+
+.thetower-text{
+	grid-column: 1 / span 2;
+    grid-row:  3 / span 2 ;
+	display: none;
+}
+
+.oshtoora{
+	grid-column: 3 / span 4;
+    grid-row:  3 / span 2 ;
+	
+}
+
+.oshtoora-text{
+	grid-column: 3 / span 4;
+    grid-row:  3 / span 2 ;
+	display: none;
+}
+
+.responsivewall{
+	grid-column: 1 / span 4;
+    grid-row:  5 / span 2 ;
+	
+}
+
+.responsivewall-text{
+	grid-column: 1 / span 4;
+    grid-row:  5 / span 2 ;
+	display: none;
+}
+
+
+.mvidia{
+	grid-column: 5 / span 2;
+    grid-row:  5 / span 1 ;
+}
+
+.mvidia-text{
+	grid-column: 5 / span 2;
+    grid-row:  5 / span 1 ;
+	display: none;
+}
+
+.osfarm{
+	grid-column: 1 / span 2;
+    grid-row:  6 / span 1 ;
+	background: #fff;
+}
+
+.thestation{
+	grid-column: 3 / span 4;
+    grid-row:  6 / span 1 ;
+	background: #fff;
+}
+
+
+
+
+
