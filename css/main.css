@@ -53,6 +53,12 @@ h2 {
 	display: inline-block;
 }
 
+.active {
+	font-size: 1vmax;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+}
+
 .title{
 	grid-column: 1 / span 3;
     grid-row: 1 / span 2;
@@ -208,11 +214,11 @@ a{
 
 @media screen and (max-width: 768px) {
   	.header{
-    	width: 95.1%;
+    	width: 100.1%;
 	}
 
 	.wrapper{
-  		width: 95%;
+  		width: 100%;
 	}
 }
 
