@@ -47,8 +47,8 @@ h1 {
 }
 
 h2 {
-	font-size: 1vmax;
-	font-weight: 200;
+	font-size: 1.1vmax;
+	font-weight: 400;
 	font-family: 'Raleway', sans-serif;
 	display: inline-block;
 }
@@ -202,8 +202,8 @@ a{
 .footer{
 	grid-column: 1 / span 6;
     grid-row:  9 / span 1 ;
-	background: #363636;
-	color: #fff;
+	border-top: solid thin #363636;
+	color: #000;
 	font-size: .8vmax;
 	font-weight: 400;
 	font-family: 'Raleway', sans-serif;
@@ -212,7 +212,15 @@ a{
 	padding-right: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  	.header{
+    	width: 100.1%;
+	}
 
+	.wrapper{
+  		width: 100%;
+	}
+}
 
 
 
