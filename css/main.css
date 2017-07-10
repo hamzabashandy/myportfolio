@@ -1,5 +1,5 @@
 .wrapper{
-	width: 90%;
+	width: 70%;
 	margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -9,7 +9,7 @@
 }
 
 .header{
-	width: 90%;
+	width: 70%;
 	margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -18,6 +18,7 @@
 	background: #fff;
 	position: fixed;
 	top:0px;	
+	z-index: 1000;
 }
 
 img {
@@ -79,75 +80,112 @@ a{
     
 }
 
+.text06 {
+	align-self: end;
+	text-align: left;
+	font-size: 100%;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	padding-left: 10px;
+
+}
+
 .eurythmie{
 	grid-column: 1 / span 6;
-    grid-row: 1 / span 2 ;
+    grid-row: 3 / span 2 ;
 }
 
 .eurythmie-text{
 	grid-column: 1 / span 6;
-    grid-row: 1 / span 2 ;
-	display: none;
+    grid-row: 3 / span 2 ;
+	background: #252525;
+	opacity: .5;
+	margin-bottom: 5px;
 }
 
 .thetower{
 	grid-column: 1 / span 2;
-    grid-row:  3 / span 2 ;
+    grid-row:  5 / span 2 ;
 	
 }
 
 .thetower-text{
 	grid-column: 1 / span 2;
-    grid-row:  3 / span 2 ;
-	display: none;
+    grid-row:  5 / span 2 ;
+	background: #252525;
+	opacity: .5;
+	margin-bottom: 5px;
 }
 
 .oshtoora{
 	grid-column: 3 / span 4;
-    grid-row:  3 / span 2 ;
+    grid-row:  5 / span 2 ;
 	
 }
 
 .oshtoora-text{
 	grid-column: 3 / span 4;
-    grid-row:  3 / span 2 ;
-	display: none;
+    grid-row:  5 / span 2 ;
+	background: #252525;
+	opacity: .5;
+	margin-bottom: 5px;
 }
 
-.responsivewall{
+.wall{
 	grid-column: 1 / span 4;
-    grid-row:  5 / span 2 ;
+    grid-row:  7 / span 2 ;
 	
 }
 
-.responsivewall-text{
+.wall-text{
 	grid-column: 1 / span 4;
-    grid-row:  5 / span 2 ;
-	display: none;
+    grid-row:  7 / span 1 ;
+	background: #252525;
+	opacity: .5;
+	margin-bottom: 3px;
 }
 
 
 .mvidia{
 	grid-column: 5 / span 2;
-    grid-row:  5 / span 1 ;
+    grid-row:  7 / span 1 ;
 }
 
 .mvidia-text{
 	grid-column: 5 / span 2;
-    grid-row:  5 / span 1 ;
-	display: none;
+    grid-row:  7 / span 1 ;
+    background: #252525;
+	opacity: .5;
+	margin-bottom: 4px;
 }
 
 .osfarm{
 	grid-column: 1 / span 2;
-    grid-row:  6 / span 1 ;
+    grid-row:  8 / span 1 ;
 	background: #fff;
+}
+
+.osfarm-text{
+	grid-column: 1 / span 2;
+    grid-row:  8 / span 1 ;
+    background: #252525;
+	opacity: .5;
+	margin-bottom: 4px;
 }
 
 .thestation{
 	grid-column: 3 / span 4;
-    grid-row:  6 / span 1 ;
+    grid-row:  8 / span 1 ;
 	background: #fff;
+}
+
+.thestation-text{
+	grid-column: 3 / span 4;
+    grid-row:  8 / span 1 ;
+    background: #252525;
+	opacity: .5;
+	margin-bottom: 4px;
 }
 
 
