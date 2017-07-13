@@ -99,7 +99,7 @@ a{
 	font-weight: 400;
 	font-family: 'Raleway', sans-serif;
     text-align: justify;
-    line-height: 200%;
+    line-height: 2.2vmax;
 }
 
 .text05 {
@@ -127,6 +127,15 @@ a{
     line-height: 200%;
 }
 
+#location {
+    color: #ed1c24;
+}
+
+.link {
+    color: #ed1c24;
+}
+
+
 .c_01{
 	grid-column: 1 / span 6;
     grid-row: 3 / span 2 ;
@@ -148,6 +157,22 @@ a{
     grid-row: 8 / span 2 ;
 	text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+    .header{
+        width: 95.1%;
+    }
+
+    .wrapper{
+        width: 95%;
+    }
+
+    .text02 {
+        font-size: 1.5vmax;
+    }
+}
+
+/*PROJECT 1 : CHERATTE_START*/
 
 .c_history_text{
 	grid-column: 1 / span 6;
@@ -180,11 +205,6 @@ a{
 	grid-column: 1 / span 6;
     grid-row: 20 / span 1 ;
 }
-
-/*.c_urban_03{
-	grid-column: 1 / span 2;
-    grid-row: 19 / span 1 ;
-}*/
 
 .c_urban_04{
 	grid-column: 1 / span 6;
@@ -435,7 +455,7 @@ a{
 }
 
 .next{
-	grid-column: 5 / span 2;
+    grid-column: 5 / span 2;
     grid-row: 55  / span 1 ;
     background: #252525;
     color: white;
@@ -443,21 +463,357 @@ a{
     text-align: center;
 }
 
-.nextbar{
-	grid-column: 1 / span 4;
+.previous{
+    grid-column: 1 / span 4;
     grid-row: 55  / span 1 ;
     background: #252525;
     color: white;
     justify-self: stretch;
+    text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    .header{
-        width: 95.1%;
-    }
+/*PROJECT 1 : CHERATTE_END*/
 
-    .wrapper{
-        width: 95%;
-    }
+/*PROJECT 2 : THE TOWER_START*/
+
+.structure_text{
+    grid-column: 1 / span 6;
+    grid-row: 14 / span 1 ;
+    border-bottom: solid thin;
 }
+
+.structure{
+    grid-column: 1 / span 6;
+    grid-row: 17 / span 1 ;
+}
+
+.facade_text{
+    grid-column: 1 / span 6;
+    grid-row: 19 / span 1 ;
+    border-bottom: solid thin;
+}
+
+.facade{
+    grid-column: 1 / span 6;
+    grid-row: 20 / span 1 ;
+}
+
+.facade_03{
+    grid-column: 1 / span 6;
+    grid-row: 21 / span 1 ;
+}
+
+.plans_text{
+    grid-column: 1 / span 6;
+    grid-row: 22 / span 1 ;
+    border-bottom: solid thin;
+}
+
+.plans{
+    grid-column: 1 / span 6;
+    grid-row: 23 / span 1 ;
+}
+
+.plans_04{
+    grid-column: 2 / span 4;
+    grid-row: 24 / span 1 ;
+}
+
+.plans_05{
+    grid-column: 2 / span 4;
+    grid-row: 24 / span 1 ;
+    display: none;
+}
+
+.plans_06{
+    grid-column: 2 / span 4;
+    grid-row: 24 / span 1 ;
+    display: none;
+}
+
+.section_07{
+    grid-column: 2 / span 4;
+    grid-row: 24 / span 1 ;
+    display: none;
+}
+
+.button_plans_04{
+    grid-column: 2 / span 1;
+    grid-row: 25 / span 1 ;
+    border: solid 1px;
+    border-bottom: solid 5px;
+    cursor: pointer;
+}
+
+.button_plans_05{
+    grid-column: 3 / span 1;
+    grid-row: 25 / span 1 ;
+    border-bottom: solid 1px;
+    cursor: pointer;
+    background: #ececec;
+}
+
+.button_plans_06{
+    grid-column: 4 / span 1;
+    grid-row: 25 / span 1 ;
+    border-bottom: solid 1px;
+    cursor: pointer;
+    background: #ececec;
+}
+
+.button_section_07{
+    grid-column: 5 / span 1;
+    grid-row: 25 / span 1 ;
+    border-bottom: solid 1px;
+    cursor: pointer;
+    background: #ececec;
+}
+
+.interior_10{
+    grid-column: 2 / span 4;
+    grid-row: 28 / span 1 ;
+}
+
+.wood_text{
+    grid-column: 1 / span 6;
+    grid-row: 29 / span 1 ;
+    border-bottom: solid thin;
+}
+
+.wood{
+    grid-column: 1 / span 6;
+    grid-row: 30 / span 1 ;
+}
+
+.frontelevation_08{
+    grid-column: 2 / span 4;
+    grid-row: 31 / span 1 ;
+}
+
+.frontelevation_08_text{
+    grid-column: 2 / span 4;
+    grid-row: 32 / span 1 ;
+}
+
+.exterior_11{
+    grid-column: 1 / span 6;
+    grid-row: 33 / span 1 ;
+}
+
+.next_thetower{
+    grid-column: 5 / span 2;
+    grid-row: 35  / span 1 ;
+    background: #252525;
+    color: white;
+    justify-self: stretch;
+    text-align: center;
+}
+
+.previous_thetower{
+    grid-column: 1 / span 4;
+    grid-row: 35  / span 1 ;
+    background: #252525;
+    color: white;
+    justify-self: stretch;
+    text-align: center;
+}
+
+/*PROJECT 2 : THE TOWER_END*/
+
+/*PROJECT 3 : OSHTOORA_START*/
+
+.thefirst{
+    grid-column: 1 / span 6;
+    grid-row: 14 / span 1 ;
+    border-bottom: solid thin;
+}
+
+.layout_02{
+    grid-column: 1 / span 6;
+    grid-row: 17 / span 1 ;
+}
+
+.layout_02_text{
+    grid-column: 1 / span 6;
+    grid-row: 18 / span 1 ;
+}
+
+.tunnel_03{
+    grid-column: 1 / span 3;
+    grid-row: 21 / span 1 ;
+}
+
+.food_04{
+    grid-column: 4 / span 3;
+    grid-row: 21 / span 1 ;
+}
+
+.tunnel_03_text{
+    grid-column: 1 / span 3;
+    grid-row: 22 / span 1 ;
+}
+
+.food_04_text{
+    grid-column: 4 / span 3;
+    grid-row: 22 / span 1 ;
+}
+
+.tunnel_03_description{
+    grid-column: 1 / span 3;
+    grid-row: 23 / span 1 ;
+    margin-top: -2vmax;
+    text-align: justify;
+}
+
+.food_04_description{
+    grid-column: 4 / span 3;
+    grid-row: 23 / span 1 ;
+    margin-top: -2vmax;
+    text-align: justify;
+}
+
+.tunnel_05{
+    grid-column: 1 / span 6;
+    grid-row: 24 / span 1 ;
+}
+
+.vending_06{
+    grid-column: 1 / span 6;
+    grid-row: 25 / span 1 ;
+}
+
+.vending_06_text{
+    grid-column: 1 / span 6;
+    grid-row: 26 / span 1 ;
+}
+
+.image_07{
+    grid-column: 1 / span 3;
+    grid-row: 27 / span 1 ;
+}
+
+.image_08{
+    grid-column: 4 / span 3;
+    grid-row: 27 / span 1 ;
+}
+
+.image_07_text{
+    grid-column: 1 / span 3;
+    grid-row: 28 / span 1 ;
+}
+
+.image_08_text{
+    grid-column: 4 / span 3;
+    grid-row: 28 / span 1 ;
+}
+
+.stage_09{
+    grid-column: 1 / span 6;
+    grid-row: 29 / span 1 ;
+}
+
+.stage_09_text{
+    grid-column: 1 / span 6;
+    grid-row: 30 / span 1 ;
+}
+
+.stage_09_description{
+    grid-column: 1 / span 6;
+    grid-row: 31 / span 1 ;
+    margin-top: -2vmax;
+    text-align: justify;
+}
+
+.food_11{
+    grid-column: 1 / span 3;
+    grid-row: 32 / span 1 ;
+}
+
+.stage_10{
+    grid-column: 4 / span 3;
+    grid-row: 32 / span 1 ;
+}
+
+.food_11_text{
+    grid-column: 1 / span 3;
+    grid-row: 33 / span 1 ;
+}
+
+.stage_10_text{
+    grid-column: 4 / span 3;
+    grid-row: 33 / span 1 ;
+}
+
+.panorama{
+    grid-column: 1 / span 6;
+    grid-row: 34 / span 1 ;
+
+    position: relative;
+    padding-bottom: 40%;
+    
+    height: 0;
+    overflow: hidden;
+}
+
+.panorama iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.panorama_text{
+    grid-column: 1 / span 6;
+    grid-row: 35 / span 1 ;
+}
+
+.movie2015{
+    grid-column: 1 / span 4;
+    grid-row: 36 / span 1 ;
+
+    position: relative;
+    padding-bottom: 40%;
+    
+    height: 0;
+    overflow: hidden;
+}
+
+.movie2015 iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tunnel_12{
+    grid-column: 5 / span 2;
+    grid-row: 36 / span 1 ;
+}
+
+
+.next_oshtoora{
+    grid-column: 5 / span 2;
+    grid-row: 45  / span 1 ;
+    background: #252525;
+    color: white;
+    justify-self: stretch;
+    text-align: center;
+}
+
+.previous_oshtoora{
+    grid-column: 1 / span 4;
+    grid-row: 45  / span 1 ;
+    background: #252525;
+    color: white;
+    justify-self: stretch;
+    text-align: center;
+}
+
+
+/*PROJECT 3 : OSHTOORA_END*/
+
+
+
 
