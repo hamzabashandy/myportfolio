@@ -230,6 +230,11 @@ a{
 /*RESUME_START*/
 
 @media screen and (min-width: 768px) {
+	
+	.resume_01{
+	grid-column: 1 / span 6;
+    grid-row: 3 / span 2 ;
+}
 
 	.wrappercv{
 	  display: grid;
@@ -254,6 +259,11 @@ a{
 }
 
 @media screen and (max-width: 768px) {
+	
+	.resume_01{
+		display: none;
+}
+	
 	.wrappercv{
 		display: none;
     }
@@ -277,19 +287,19 @@ a{
 	
 	.R_bar01{
 		grid-column: 1 / span 2;
-    	grid-row: 8 / span 2 ;
+    	grid-row: 12 / span 2 ;
 	}
 
 	.R_bar02{
 		grid-column: 3 / span 4;
-    	grid-row: 8 / span 2 ;
+    	grid-row: 12 / span 2 ;
 		text-align: right;
 	}
 
 	.R_description{
 		border-top: solid thin;
 		grid-column: 1 / span 6;
-    	grid-row: 12 / span 2 ;
+    	grid-row: 14 / span 2 ;
 		text-align: center;
 	}
 	
