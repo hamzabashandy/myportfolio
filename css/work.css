@@ -175,6 +175,15 @@ a{
     .text02 {
         font-size: 1.5vmax;
     }
+	
+	.text05 {
+        font-size: 1.2vmax;
+    }
+	
+	.text01 {
+        font-size: 1.2vmax;
+    }
+
 
 }
 
@@ -284,12 +293,12 @@ a{
 		text-align: center;
 	}
 	
-	.text01 {
+	.text01_resume {
 		font-size: 1.8vmax;
 		line-height: 2.8vmax;
 	}
 
-	.text05 {
+	.text05_resume {
 		font-size: 1.8vmax;
 		line-height: 2.8vmax;
 		text-align: right;
