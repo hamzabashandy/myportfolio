@@ -217,4 +217,27 @@ a{
 }
 
 
+@media screen and (min-width: 1800px) {
+ 	.header{
+    	width: 50.1%;
+	}
+
+	.wrapper{
+  		width: 50%;
+	}
+	.text06 {
+		font-size: .7vmax;
+	}
+	h1 {
+		font-size: 1vmax;
+	}
+
+	h2 {
+		font-size: .8vmax;
+	}
+	#portfolio{
+		font-size: .6vmax;
+	}
+}
+
 
