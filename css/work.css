@@ -59,7 +59,7 @@ h2 {
 }
 
 .subtitle{
-    grid-column: 6 / span 1;
+    grid-column: 5 / span 2;
     grid-row: 1 / span 2;
     align-self: center;
     text-align: right;
@@ -183,8 +183,17 @@ a{
 	.text01 {
         font-size: 1.2vmax;
     }
+    
+    h1 {
+        font-size: 2vmax;
+    }
 
-
+    h2 {
+        font-size: 1.6vmax;
+    }
+    #portfolio{
+        font-size: 1.6vmax;
+    }
 }
 
 
@@ -230,11 +239,7 @@ a{
 /*RESUME_START*/
 
 @media screen and (min-width: 768px) {
-	
-	.resume_01{
-	grid-column: 1 / span 6;
-    grid-row: 3 / span 2 ;
-}
+
 
 	.wrappercv{
 	  display: grid;
@@ -283,7 +288,7 @@ a{
 	}
 	
 	.R_bar01{
-		grid-column: 2 / span 2;
+		grid-column: 1 / span 2;
     	grid-row: 12 / span 2 ;
 	}
 
@@ -294,18 +299,23 @@ a{
 	}
 
 	.R_description{
-		display: none;
+		grid-column: 1 / span 6;
+    	grid-row: 14 / span 2 ;
 	}
 	
 	.text01_resume {
-		font-size: 1.8vmax;
+		font-size: 2vmax;
 		line-height: 2.8vmax;
+        font-weight: 400;
+	    font-family: 'Raleway', sans-serif;
 	}
 
 	.text05_resume {
-		font-size: 1.8vmax;
+		font-size: 2vmax;
 		line-height: 2.8vmax;
 		text-align: right;
+        font-weight: 400;
+	    font-family: 'Raleway', sans-serif;
 	}
 	
 	.text_justify {

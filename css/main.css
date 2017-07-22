@@ -194,7 +194,7 @@ a{
 }
 
 .footer{
-	grid-column: 1 / span 6;
+	grid-column: 1  / span 6;
     grid-row:  9 / span 1 ;
 	border-top: solid thin #363636;
 	color: #000;
@@ -214,6 +214,16 @@ a{
 	.wrapper{
   		width: 95%;
 	}
+    h1 {
+        font-size: 2vmax;
+    }
+
+    h2 {
+        font-size: 1.6vmax;
+    }
+    #portfolio{
+        font-size: 1.6vmax;
+    }
 }
 
 
