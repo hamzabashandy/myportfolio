@@ -294,10 +294,7 @@ a{
 	}
 
 	.R_description{
-		border-top: solid thin;
-		grid-column: 1 / span 6;
-    	grid-row: 14 / span 2 ;
-		text-align: center;
+		display: none;
 	}
 	
 	.text01_resume {
