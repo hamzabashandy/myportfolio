@@ -17,6 +17,52 @@
     transform: translateX(-50%);
 }
 
+.notification{
+	width: 100%;
+	background: #000;
+	position: fixed;
+	
+	height: 25vmax;
+	z-index: 1;
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1px;
+    grid-auto-rows: repeat (10, 500px);
+	cursor: pointer;
+	left: 50%;
+	bottom: 0px;
+	
+	-webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.notificationtext{
+	grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+	
+	color:#fff;
+	font-size: 2vmax;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    font-weight: 600;
+	align-self: center;
+}
+
+.notificationclose{
+	grid-column: 5 / span 1;
+    grid-row: 1 / span 2;
+	
+	color:#fff;
+	font-size: 5vmax;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    font-weight: 200;
+	align-self: center;
+}
+
 .wrapper{
   display: grid;
   grid-template-columns: repeat(6, 1fr);

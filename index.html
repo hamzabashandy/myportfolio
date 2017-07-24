@@ -22,7 +22,13 @@
 		 	<div class="title"> <h1>BASHANDY H. <span id="portfolio"> portfolio </span> </h1></div>
 		 	<div class="subtitle"><h2><a href="resume.html" target="_blank">| CV </a></h2></div>
 		 </div>
-
+		
+	<div class="notification">
+		<div class="notificationtext"><p>This website is better viewed on CHROME & SAFARI</p></div>
+		<div class="notificationclose"><p>&#10006;</p></div>
+	</div>	
+		
+		
 	<div class="wrapper">
 		 <div class="eurythmie"><a href="cheratte.html"><img src="assets/cheratte.jpg"></a></div>
 		 <div class="text06 eurythmie-text"><p>01. Eurythmie | 2017</p></div>
@@ -47,6 +53,18 @@
         
 		 <div class="footer"><p>hamza.bashandy@gmail.com | &copy 2017</p></div>
 	</div>    
+		
+	<script>
+		
+		$( ".notification" ).click(function() {
+  		$( ".notification" ).hide();
+		});
+		
+		setTimeout(function() {
+    $('.notification').fadeOut('slow');
+}, 4000); // <-- time in milliseconds
+		
+	</script>
 		
 	<script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
