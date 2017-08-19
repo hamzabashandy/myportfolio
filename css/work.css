@@ -205,6 +205,11 @@ a{
 	.wrapper{
   		width: 50%;
 	}
+	
+	.wrappercv{
+		width: 50%;
+	}
+	
 	.text06 {
 		font-size: .7vmax;
 	}
