@@ -3,7 +3,7 @@
     grid-gap: 1px;
     grid-auto-rows: repeat (15, 500px);
 
-    width: 90.1%;
+    width: 70.1%;
     display: grid;
     background: #fff;
     position: fixed;
@@ -24,7 +24,7 @@
   grid-gap: .5vw .5vw;
 
   position: absolute;
-  width: 90%;
+  width: 70%;
   top:20px;
   left: 50%;
   -webkit-transform: translateX(-50%);
